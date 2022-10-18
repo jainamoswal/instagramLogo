@@ -2,13 +2,16 @@
     <head>
         <title>Instagram Logo</title>
         <style>
+            .theBody{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
             .myDiv {
                 position: fixed;
                 height: 200px;
                 width: 200px;
-                border: 1px;
-                border-style: solid;
-                border-color: transparent; 
                 border-radius: 20%;
                 background-image: linear-gradient(to bottom right, blue, purple,red, yellow);
             }
@@ -48,7 +51,7 @@
 
         </style>
     </head>
-    <body>
+    <body class="theBody">
         <div class="myDiv">
             <div class="mySecondDiv">
                 <div class="myDot"></div>
